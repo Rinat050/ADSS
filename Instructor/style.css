@@ -26,7 +26,8 @@ body{
 button{
     width: 250px;
     height: 30px;
-
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
     background-color: #FEEAE7;
     border: 0px;
     border-radius: 15px;
@@ -45,4 +46,11 @@ button{
     background: #FEEAE7;
     border: 2px solid #FF373F;
     border-radius: 15px;
+}
+p.txt1
+{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
 }
