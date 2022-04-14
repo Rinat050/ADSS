@@ -24,22 +24,23 @@ body
     }
     .PasswordTxt { 
         left:181px;
-        top:241px;
+        top:221px;
     }
     .LoginTxt { 
         left:181px;
-        top:130px;
+        top:110px;
     }
-    span
+    p
     {
         color:rgba(255, 255, 255, 1);
         width:201px;
         height:27px;
         position:absolute;
-        font-family:Playfair Display;
         text-align:left;
         font-size:28px;
         letter-spacing:0;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        
     }
     .SignIn { 
         width:259px;
@@ -48,13 +49,13 @@ body
         top:369px;
         border-radius: 15px;
         font-size: 24px;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         border: 1px;
         background-color: #FD7362;
     }
     .SignIn:hover
     {
-        background-color:#ffffff;
+        background-color:#FF373F;
     }
     .Login { 
         left:181px;
@@ -74,4 +75,6 @@ body
         padding-left: 10px;
         border:none;
         font-size: 24px;
+        outline: none;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
